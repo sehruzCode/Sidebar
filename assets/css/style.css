@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    background-color: rgb(55, 55, 254);
+    width: 0%;
+    height: 90vh;
+    margin: 2vw;
+    border-radius: 20px;
+    transition: 0.5s width;
+    
+   
+    
+
+}
+.bi {
+    margin-right: 2vw;
+    margin-left: 1.5vw;
+}
+li {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+
+}
+/* li:hover{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+} */
+
+/* li:first-child {
+    background-color: white;
+    color: black;
+} */
+.button {
+    width: 3%;
+    height: 5vh;
+    float: right;
+    position: absolute;
+    left: 30vw;
+    top: 3vh;
+    background-color: rgb(55, 55, 254);
+}
+
+.list.active{
+    background-color: white;
+    color: black;
+    transition: 400ms all ease-in-out;
+
+}
